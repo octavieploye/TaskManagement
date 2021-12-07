@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tasks_management',
+    'task_app',
     'rest_framework',
      'django_filters',
 ]
@@ -79,7 +80,7 @@ WSGI_APPLICATION = 'tasks_management.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'tasks_mamangement',
+        'NAME': 'tasks_app',
         'USER': 'octavie',
         'PASSWORD':'1234',
     }
@@ -104,20 +105,20 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-REST_FRAMEWORK = {
-    # Use Django's standard `django.contrib.auth` permissions,
-    # or allow read-only access for unauthenticated users.
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-    ],
+# REST_FRAMEWORK = {
+#     # Use Django's standard `django.contrib.auth` permissions,
+#     # or allow read-only access for unauthenticated users.
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+#     ],
 
-    'DEFAULT_MODEL_SERIALIZER_CLASS': [
-        'rest_framework.serializers.HyperlinkedModelSerializer'
-    ],
+#     'DEFAULT_MODEL_SERIALIZER_CLASS': [
+#         'rest_framework.serializers.HyperlinkedModelSerializer'
+#     ],
 
 
-   #'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
-}
+#    #'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
