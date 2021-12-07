@@ -1,0 +1,119 @@
+[
+{
+  "model": "task_app.taskitem",
+  "pk": 1,
+  "fields": {
+    "item_title": "create new app",
+    "item_description": "e-commerce related application",
+    "item_categorie": "work",
+    "item_status": "Pending",
+    "due_date_time": "2022-09-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:06:21.122Z",
+    "date_time_modified": "2021-12-07T14:06:21.122Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 2,
+  "fields": {
+    "item_title": "buy xmas gift",
+    "item_description": "get a scarf for auntie Julia",
+    "item_categorie": "personal",
+    "item_status": "ongoing",
+    "due_date_time": "2021-12-24T06:00:00Z",
+    "date_time_set": "2021-12-07T14:11:04.832Z",
+    "date_time_modified": "2021-12-07T14:11:04.832Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 3,
+  "fields": {
+    "item_title": "Bundoran",
+    "item_description": "Prepare surf trip",
+    "item_categorie": "holiday",
+    "item_status": "Pending",
+    "due_date_time": "2022-06-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:12:52.417Z",
+    "date_time_modified": "2021-12-07T14:12:52.417Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 4,
+  "fields": {
+    "item_title": "Lina Birsthday",
+    "item_description": "organise gift",
+    "item_categorie": "Birthday",
+    "item_status": "Pending",
+    "due_date_time": "2022-04-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:14:57.148Z",
+    "date_time_modified": "2021-12-07T14:14:57.148Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 6,
+  "fields": {
+    "item_title": "mandolarian",
+    "item_description": "API",
+    "item_categorie": "xmas-holiday",
+    "item_status": "Pending",
+    "due_date_time": "2022-09-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:16:24.201Z",
+    "date_time_modified": "2021-12-07T15:41:52.021Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 7,
+  "fields": {
+    "item_title": "app4",
+    "item_description": "create a blog",
+    "item_categorie": "work",
+    "item_status": "Pending",
+    "due_date_time": "2022-09-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:21:15.648Z",
+    "date_time_modified": "2021-12-07T14:21:15.648Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 8,
+  "fields": {
+    "item_title": "app5",
+    "item_description": "create a game",
+    "item_categorie": "work",
+    "item_status": "Pending",
+    "due_date_time": "2022-09-04T06:00:00Z",
+    "date_time_set": "2021-12-07T14:21:57.712Z",
+    "date_time_modified": "2021-12-07T14:21:57.712Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 9,
+  "fields": {
+    "item_title": "car",
+    "item_description": "10k check",
+    "item_categorie": "personal",
+    "item_status": "Pending",
+    "due_date_time": "2022-09-06T06:00:00Z",
+    "date_time_set": "2021-12-07T14:23:00.025Z",
+    "date_time_modified": "2021-12-07T14:23:00.026Z"
+  }
+},
+{
+  "model": "task_app.taskitem",
+  "pk": 10,
+  "fields": {
+    "item_title": "cat",
+    "item_description": "1y check",
+    "item_categorie": "personal",
+    "item_status": "Pending",
+    "due_date_time": "2022-03-06T06:00:00Z",
+    "date_time_set": "2021-12-07T14:23:29.075Z",
+    "date_time_modified": "2021-12-07T14:23:29.075Z"
+  }
+}
+]
