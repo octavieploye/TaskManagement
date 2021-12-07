@@ -14,4 +14,4 @@ class TaskItem(models.Model):
     # owner=models.ForeignKey(User, on_delete=models.CASCADE,null=False)
 
     def __str__(self):
-        return self.item_description
+        return  self.item_description
