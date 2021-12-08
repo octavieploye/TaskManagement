@@ -1,7 +1,7 @@
 
 import '../Style/task.css'
 
-const Task = ({ title, categorie, description, status, due_date_time, date_time_set }) => {
+const Task = ({ title, categorie, description, status, due_date_time, date_time_set, completed}) => {
     console.log('Task title', title)
   
     return (
@@ -19,6 +19,7 @@ const Task = ({ title, categorie, description, status, due_date_time, date_time_
           <li> Description: {description}  </li>
           <li> Due: {due_date_time} </li>
           <li> Created: {date_time_set}</li>
+          <li> Completed: {completed}</li>
           </ul>
           {/* {status
             ? Object.values(status)

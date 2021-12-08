@@ -10,10 +10,11 @@ class TaskItemSerializer(serializers.ModelSerializer):
     title=serializers.CharField(source='item_title')  
     categorie=serializers.CharField(source='item_categorie')
     status=serializers.CharField(source='item_status')
-    description=serializers.CharField(source="item_description")    
+    description=serializers.CharField(source="item_description")   
+    completed=serializers.BooleanField
     class Meta:
         model=TaskItem
         fields='__all__'
-        fields=('id','title', 'categorie','description','status','due_date_time','date_time_set','date_time_modified')
+        fields=('id','title', 'categorie','description','status','due_date_time','date_time_set','date_time_modified','completed')
 
         

@@ -10,7 +10,7 @@ class TaskItem(models.Model):
     due_date_time=models.DateTimeField(null=False)
     date_time_set=models.DateTimeField(auto_now_add=True)
     date_time_modified=models.DateTimeField(auto_now=True)
-    # completed=models.BooleanField(default=False)
+    completed=models.BooleanField(default=False)
     # owner=models.ForeignKey(User, on_delete=models.CASCADE,null=False)
 
     def __str__(self):

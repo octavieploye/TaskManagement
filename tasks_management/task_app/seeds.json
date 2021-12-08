@@ -9,7 +9,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-09-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:06:21.122Z",
-    "date_time_modified": "2021-12-07T14:06:21.122Z"
+    "date_time_modified": "2021-12-07T14:06:21.122Z",
+    "completed": false
   }
 },
 {
@@ -22,7 +23,8 @@
     "item_status": "ongoing",
     "due_date_time": "2021-12-24T06:00:00Z",
     "date_time_set": "2021-12-07T14:11:04.832Z",
-    "date_time_modified": "2021-12-07T14:11:04.832Z"
+    "date_time_modified": "2021-12-07T14:11:04.832Z",
+    "completed": false
   }
 },
 {
@@ -35,7 +37,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-06-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:12:52.417Z",
-    "date_time_modified": "2021-12-07T14:12:52.417Z"
+    "date_time_modified": "2021-12-07T14:12:52.417Z",
+    "completed": false
   }
 },
 {
@@ -48,7 +51,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-04-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:14:57.148Z",
-    "date_time_modified": "2021-12-07T14:14:57.148Z"
+    "date_time_modified": "2021-12-07T14:14:57.148Z",
+    "completed": false
   }
 },
 {
@@ -61,7 +65,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-09-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:16:24.201Z",
-    "date_time_modified": "2021-12-07T15:41:52.021Z"
+    "date_time_modified": "2021-12-08T17:26:39.998Z",
+    "completed": false
   }
 },
 {
@@ -74,7 +79,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-09-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:21:15.648Z",
-    "date_time_modified": "2021-12-07T14:21:15.648Z"
+    "date_time_modified": "2021-12-07T14:21:15.648Z",
+    "completed": false
   }
 },
 {
@@ -87,7 +93,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-09-04T06:00:00Z",
     "date_time_set": "2021-12-07T14:21:57.712Z",
-    "date_time_modified": "2021-12-07T14:21:57.712Z"
+    "date_time_modified": "2021-12-07T14:21:57.712Z",
+    "completed": false
   }
 },
 {
@@ -100,7 +107,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-09-06T06:00:00Z",
     "date_time_set": "2021-12-07T14:23:00.025Z",
-    "date_time_modified": "2021-12-07T14:23:00.026Z"
+    "date_time_modified": "2021-12-07T14:23:00.026Z",
+    "completed": false
   }
 },
 {
@@ -113,7 +121,8 @@
     "item_status": "Pending",
     "due_date_time": "2022-03-06T06:00:00Z",
     "date_time_set": "2021-12-07T14:23:29.075Z",
-    "date_time_modified": "2021-12-07T14:23:29.075Z"
+    "date_time_modified": "2021-12-07T14:23:29.075Z",
+    "completed": false
   }
 }
 ]
