@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import Task from './Components/Task'
+import TaskList from './Components/TaskList'
 import css from './App.css'
 
 function App() {
@@ -11,7 +11,18 @@ function App() {
     }
     getData()
   })
-  return <h1> MyDebuggingJourney</h1>
+  return (
+    <>
+  <h1> MyDebuggingJourney</h1>
+
+  <div className='App'>
+      <header className='App-header'>
+        <TaskList/>
+      </header>
+    </div>
+    </>
+  )
 }
 
 export default App
+ 

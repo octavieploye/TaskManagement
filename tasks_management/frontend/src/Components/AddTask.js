@@ -10,7 +10,7 @@ class AddTask extends React.Component {
                 id: "",
                 description: "",
                 status: "",
-                category: "",
+                categorie: "",
                 date: "",
                 time: ""
             }
@@ -27,7 +27,7 @@ class AddTask extends React.Component {
         let sendItem = {
             "description": this.state.item.description,
             "status": this.state.item.status,
-            "category": this.state.item.category,
+            "categorie": this.state.item.categorie,
             "date": this.state.item.date,
             "time": this.state.item.time
         }
