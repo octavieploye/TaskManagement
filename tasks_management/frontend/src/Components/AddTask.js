@@ -1,5 +1,9 @@
 
 
+import axios from 'axios'
+import { useState } from 'react'
+import { useHistory } from 'react-router'
+
 class AddTask extends React.Component {
 
     constructor(props) {
@@ -129,7 +133,24 @@ class AddTask extends React.Component {
 
     return 
     
-        <h2> Add Task </h2>
+    <section>
+    <form onSubmit={handleSubmit}>
+      <h1>ADD A TASK</h1>
+      <CheeseForm formInputProps={formInputProps} />
+      <div>
+        <input type='submit' value='Add TASK' />
+      </div>
+      {isError ? (
+        <div className='error'>
+          <p>Error. Please try again.</p>
+        </div>
+      ) : (
+        <></>
+      )}
+    </form>
+  </section>
+
+}
         
 
 

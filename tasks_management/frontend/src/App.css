@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
 .App {
   text-align: center;
 }
 h1 {
   text-align: center;
+  font-family: 'Baloo 2', cursive;
 }
 
 .App-logo {
@@ -18,7 +21,7 @@ h1 {
 
 .App-header {
   
-  background-color: #282c34;
+  background-color: #864C79;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +29,12 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+h1 {
+  border: 20px #d1a768;
+  background-color: #EBD9BE;
+  color: #864C79;
 }
 
 .App-link {

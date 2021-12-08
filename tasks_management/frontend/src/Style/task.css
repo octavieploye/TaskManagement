@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.Task {
+    font-family: 'Baloo 2', cursive;
+    font-size: small;
+
+
+}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+
+li{
+    border: 1px solid rgb(141, 182, 216);
+    padding: 0;
+    
+  }
