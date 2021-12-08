@@ -8,7 +8,7 @@ const TaskList = () => {
 
      useEffect(() => {
         async function getTasksFromApi() {
-            const response = await axios.get('http://localhost:8000/tasks/')
+            const response = await axios.get('http://localhost:8000/api/tasks/')
             console.log('got tasks', response.data)
             setTasks(response.data)
         }
