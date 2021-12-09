@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import Task from './Task'
 import { deleteTask, fetchTask } from '../helpers/api'
+import TaskInfo from './TaskInfo'
 
 const TaskShow = () => {
   const [task, setTask] = useState([])
@@ -28,13 +29,16 @@ const TaskShow = () => {
   return (
       
     <section>
-      <h1>{task.title}</h1>
+      <h1>{Task}</h1>
+      
       <p>
-        <Link to={`/tasks/${id}/edit`}>Edit this task!</Link>
-        <button onClick={handleDeleteClick}>Delete this task!</button>
+        <Link to={`/tasks/${id}/edit`}>Edit</Link>
+        <button onClick={handleDeleteClick}>Delete</button>
       </p>
       <Task {...task} isCompleted={true} />
-    </section>
+      
+
+</section>
     
   )
 }

@@ -4,6 +4,7 @@ import TaskEdit from './TaskEdit'
 import TaskList from './TaskList'
 
 
+
 const Nav = () => {
   const navigate = useNavigate()
 
@@ -12,14 +13,19 @@ const Nav = () => {
   return (
     <nav>
       <ul>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
+       
         <li>
           <Link to='/tasks'>Tasks</Link>
         </li>
         <li>
           <Link to='/tasks/new'>Create A Task </Link>
+        </li>
+        <li>
+          <Link to='/tasks/:id/edit'>Edit A Task </Link>
+        </li>
+
+        <li>
+          <Link to='/tasks/:id'>Delete A Task </Link>
         </li>
       
           

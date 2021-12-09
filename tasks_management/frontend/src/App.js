@@ -5,9 +5,8 @@ import axios from 'axios'
 import css from './App.css'
 import TaskList from './Components/TaskList'
 import CreateTask from './Components/CreateTask'
-import TaskEdit from './Components/TaskEdit';
-import TaskShow from './Components/TaskShow';
-import Home from './Components/Home';
+import TaskEdit from './Components/TaskEdit'
+import TaskShow from './Components/TaskShow'
 import Nav from './Components/Nav'
 
 
@@ -37,9 +36,9 @@ function App() {
           <Route path='/tasks/:id/edit' element={<TaskEdit/>} />
           <Route path='/tasks/:id' element={<TaskShow/>} />
           <Route path='/tasks' element={<TaskList/>} />
-          <Route exact path='/' element={<Home/>} />
          
-       
+          
+        
         </Routes>
       </main>
     </Router>

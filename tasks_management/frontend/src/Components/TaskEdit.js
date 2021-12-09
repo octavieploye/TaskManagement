@@ -38,7 +38,7 @@ const TaskEdit = () => {
 
       console.log(response.data)
       setIsError(false)
-      navigate(`/tasks/${response.data._id}`)
+      navigate(`/tasks/${response.data.id}`)
     } catch (err) {}
   }
 
@@ -59,7 +59,7 @@ const TaskEdit = () => {
   return (
     <section>
       <form onSubmit={handleSubmit}>
-        <h1>Edit {Task.title}</h1>
+        <h1>Edit {task.name}</h1>
         <TaskForm formInputProps={formInputProps} />
         <div>
           <input type='submit' value='Edit Task' />
