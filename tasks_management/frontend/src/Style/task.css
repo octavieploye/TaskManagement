@@ -3,6 +3,7 @@
 .Task {
     font-family: 'Baloo 2', cursive;
     font-size: small;
+    color: #B19190;
 
 
 }
@@ -10,15 +11,17 @@ ul {
     text-decoration: none;
     list-style-type: none;
     width: 100%;
-    justify-content: space-around;
     display: flex;
     list-style: none;
     padding: 0;
     
 }
 
-li{
+ul li{
+    /* justify-content: space-around;
     border: 1px solid rgb(141, 182, 216);
-    padding: 0;
-    
+    padding: 0; */
+    background: #F4DFF4;
+    padding: 5px;
+ /* margin-left: 30px; */
   }

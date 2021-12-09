@@ -1,7 +1,15 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import axios from 'axios'
-import TaskList from './Components/TaskList'
 import css from './App.css'
+import TaskList from './Components/TaskList'
+import CreateTask from './Components/CreateTask'
+import TaskEdit from './Components/TaskEdit';
+import TaskShow from './Components/TaskShow';
+import Home from './Components/Home';
+import Nav from './Components/Nav'
+
 
 function App() {
   React.useEffect(() => {
@@ -14,12 +22,27 @@ function App() {
   return (
     <>
   <h1> MyDebuggingJourney</h1>
-
-  <div className='App'>
+  <Router>
       <header className='App-header'>
-        <TaskList/>
+        <Nav/>
       </header>
-    </div>
+      <main>
+        {/* In a Routes, only the first route that matches is shown. */}
+        <Routes>
+          {/*
+              Each of our routes has two props: a 'path' to match,
+              and a 'component' to render when we do.
+            */}
+          <Route path='/tasks/new' element={<CreateTask/>} />
+          <Route path='/tasks/:id/edit' element={<TaskEdit/>} />
+          <Route path='/tasks/:id' element={<TaskShow/>} />
+          <Route path='/tasks' element={<TaskList/>} />
+          <Route exact path='/' element={<Home/>} />
+         
+       
+        </Routes>
+      </main>
+    </Router>
     </>
   )
 }

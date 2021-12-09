@@ -5,13 +5,9 @@ const Task = ({ title, categorie, description, status, due_date_time, date_time_
     console.log('Task title', title)
   
     return (
-        <div>
-
-          <p> Task </p>
-        
 
       <div className='Task'>
-        <p>
+        
             <ul>
 
           <li> Title: {title} </li>
@@ -21,19 +17,10 @@ const Task = ({ title, categorie, description, status, due_date_time, date_time_
           <li> Created: {date_time_set}</li>
           <li> Completed: {completed}</li>
           </ul>
-          {/* {status
-            ? Object.values(status)
-            .map((n) => status)
-            .join('; ')
-            : ` Your Task ${title} is ${status}`}
-          . */}
-        </p>
-        <p>
-          {title} {categorie} {status}
-        </p>
+        
         
       </div>
-      </div>
+      
     )
   }
   
