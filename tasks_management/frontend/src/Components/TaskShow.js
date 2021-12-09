@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 import Task from './Task'
 import { deleteTask, fetchTask } from '../helpers/api'
 import TaskInfo from './TaskInfo'
+import TaskList from './TaskList'
 
 const TaskShow = () => {
   const [task, setTask] = useState([])
@@ -35,7 +36,7 @@ const TaskShow = () => {
         <Link to={`/tasks/${id}/edit`}>Edit</Link>
         <button onClick={handleDeleteClick}>Delete</button>
       </p>
-      <Task {...task} isCompleted={true} />
+      <Task {...task} isCompleted={false} />
       
 
 </section>

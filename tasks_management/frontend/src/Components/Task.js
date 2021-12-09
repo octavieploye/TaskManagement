@@ -24,15 +24,12 @@ const Task = ({  id,title, categorie, description, status, completed}) => {
       <h2>
         <Link to={`/tasks/${id}`}> {title}</Link>
       </h2>
-      <p> {title} </p>
+      <p> {description} </p>
       <p>
         {' '}
         {categorie}, {status}, {completed}
       </p>
-      <p>
-          <Link to={fetchTask}> Edit</Link>
-          <Link to={deleteTask}>Delete</Link>
-      </p>
+     
       </div>
       
     )

@@ -1,13 +1,8 @@
 import { Link } from 'react-router-dom'
 import TaskList from './TaskList'
 
-const TaskInfo = ({
-  id,
-title,
-description,
-categorie,
-status,
-completed,
+const TaskInfo = ({ id,title,description,categorie,status,completed
+
 
 }) => {
   
