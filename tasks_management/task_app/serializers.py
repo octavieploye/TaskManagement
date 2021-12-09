@@ -15,6 +15,6 @@ class TaskItemSerializer(serializers.ModelSerializer):
     class Meta:
         model=TaskItem
         fields='__all__'
-        fields=('id','title', 'categorie','description','status','due_date_time','date_time_set','date_time_modified','completed')
+        fields=('id','title', 'categorie','description','status','completed')
 
         

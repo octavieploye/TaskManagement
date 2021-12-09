@@ -8,7 +8,7 @@ const FormInput = ({
   }) => {
     return (
       <div className='field'>
-        <label for={name}>{name}</label>
+        <label htmlFor={name}>{name}</label>
         <input
           placeholder={placeholder}
           type={type}

@@ -18,13 +18,37 @@ const TaskForm = ({ formInputProps }) => {
         {...formInputProps}
 
       />
-      <FormInput
-        name='completed'
-        type='checkbox'
-       
+
+<FormInput
+        name='categorie'
+        type='text'
+        placeholder='Task Categorie'
         {...formInputProps}
 
       />
+
+
+<FormInput
+        name='status'
+        type='text'
+        placeholder='Task status'
+        {...formInputProps}
+
+      />
+{/* <FormInput
+        name='due_time_set'
+        type='date'
+        placeholder='Enter the Due Date'
+        {...formInputProps}
+
+      /> */}
+      {/* <FormInput
+    //     name='completed'
+    //     type='checkbox'
+       
+    //     {...formInputProps}
+
+    //   /> */}
     </>
   )
 }
